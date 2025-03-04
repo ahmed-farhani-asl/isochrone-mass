@@ -46,13 +46,13 @@ g++ -o isochrone_M isochrone_M(time).cpp -std=c++11 -O3
 ```
 
 ## Input Files
-isochrone.dat
-This file contains the isochrone data with the following columns:
 
-- LogAge: Logarithm of the age of the stellar population.
-- Mini: Initial mass of the stars.
-- Live_mass: Live mass of the stars at the given age.
-- imf N = 100000.dat
+### `isochrone.dat`
+This file contains the isochrone data, which can be obtained from the **[Padova Database](http://stev.oapd.inaf.it/cgi-bin/cmd)**.  
+It includes the following columns:
+- **LogAge**: Logarithm of the age of the stellar population.
+- **Mini**: Initial mass of the stars.
+- **Live_mass**: Live mass of the stars at the given age.
 
 This file contains the initial mass function (IMF) data with the following columns:
 
